@@ -1,0 +1,61 @@
+.center-icon img {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.center-icon {
+    text-align: center;
+}
+
+ul {
+    font-size: 13pt;
+    border: thick solid rgb(111, 31, 165);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 4ex;
+    width: 50%;
+    background-color: lightskyblue;
+}
+
+table th {
+    background-color: rgb(177, 133, 218);
+    color: rgb(66, 2, 126);
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24pt;
+}
+
+h3 {
+    font-size: 24pt;
+}
+
+h4 {
+    font-size: 24pt;
+    text-decoration: underline;
+    color: blueviolet;
+    
+}
+
+p.centered {
+    font-size: 24pt;
+    text-indent: 3mm;
+    text-align: center;
+    text-emphasis-color: rgb(0, 225, 255);
+    text-emphasis-style: "~";
+    text-shadow: 2px 2px rgb(111, 0, 255);
+}
+
+ol {
+    
+    font-size: 15pt;
+    border: thick solid rgb(7, 37, 204);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 3ex;
+    width: 12%;
+    background-color: rgb(202, 105, 231);
+}
