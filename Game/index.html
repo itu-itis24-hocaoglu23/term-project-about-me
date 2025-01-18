@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Prediction Game</title>
+    <link rel="stylesheet" href="Game.css">
+</head>
+<body>
+    <h1>Word Prediction Game</h1>
+    <div id="game-container">
+        <div id="images-container">
+            <div class="image-box" id="letter-B">
+                <img id="img-B" src="letterB.svg" alt="B">
+            </div>
+            <div class="image-box" id="letter-L">
+                <img id="img-L" src="letterL.svg" alt="L">
+            </div>
+            <div class="image-box" id="letter-I">
+                <img id="img-I" src="letterI.svg" alt="I">
+            </div>
+            <div class="image-box" id="letter-N">
+                <img id="img-N" src="letterN.svg" alt="N">
+            </div>
+            <div class="image-box" id="letter-K">
+                <img id="img-K" src="letterK.svg" alt="K">
+            </div>
+        </div>
+        <input type="text" id="guess-input" placeholder="Guess a letter or word">
+        <button id="submit-button">Submit</button>
+        <p>Score: <span id="score">0</span></p>
+        <p>Lives: <span id="lives">3</span></p>
+        <button id="reset-button">Reset Game</button>
+    </div>
+    <h2 id="finalText" style="color: rgb(168, 26, 168); visibility: hidden;"></h2>
+    <script src="script.js"></script>
+</body>
+</html>
+
 
